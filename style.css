@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 nav{
     width: 100%;
@@ -26,6 +27,7 @@ nav{
     margin-left: 30px;
     margin-right: 20px;
 }
+
 .box-1 p{
     font-size: 28px;
     margin-left: 10px;
@@ -46,4 +48,179 @@ margin: 0px 10px ;
     height: 40px;
     margin-top: -34px;
 }
+.special-box{
+    border: 1px solid grey;
+    height: 484px;
+    width: 300px;
+   border-top: none;
+   padding-top: 10px;
+}
+.box-3{
+    border-top: none;
+    padding: 5px 20px 5px 20px;
+    display: flex;
+    cursor: pointer;
+    background: rgb(156, 188, 223);
+    border-radius: 20px;
+}
+.box-3 img{
+    width: 30px;
+    height: 30px;
+}
+.box-3 a{
+    text-decoration: none;
+    margin-top: 7px;
+    margin-left: 20px;
+    color: black;
+}
 
+.box-4{
+    cursor: pointer;
+    padding: 2px 20px;
+    display: flex;
+}
+.box-4:hover{
+    /* background: rgb(216, 214, 214); */
+    background: whitesmoke;
+    border-radius: 20px;
+    /* padding: 0px 10px; */
+}
+.box-4 img{
+    width: 30px;
+    height: 30px;
+}
+
+.box-4 a{
+    text-decoration: none;
+    margin-top: 7px;
+    margin-left: 20px;
+    color: black;
+}
+.box-5{
+    padding:5px 20px 5px 20px;
+    display: flex;
+    cursor: pointer;
+}
+.box-5:hover{
+    background: whitesmoke;
+    border-radius: 20px;
+}
+.box-5 img{
+    width: 30px;
+    height: 30px;
+}
+.box-5 a{
+    text-decoration: none;
+    margin-top: 7px;
+    margin-left:20px;
+    color: black;
+}
+.box-6{
+    border-top: none;
+    padding: 5px 20px 5px 20px;
+    display: flex;
+    cursor: pointer;
+}
+.box-6:hover{
+    background: whitesmoke;
+    border-radius: 20px;
+}
+.box-6 img{
+    width: 28px;
+    height: 30px;
+}
+.box-6 a{
+    text-decoration: none;
+    margin-top: 7px;
+    margin-left: 20px;
+    color: black;
+}
+.box-7{
+    padding: 5px 20px 5px 20px;
+    display: flex;
+    cursor: pointer;
+}
+.box-7:hover{
+    background: whitesmoke;
+    border-radius: 20px;
+}
+.box-7 img{
+    width: 28px;
+    height: 32px;
+}
+.box-7 a{
+    text-decoration: none;
+    margin-top: 7px;
+    margin-left: 20px;
+    color: black;
+}
+.box-8{
+    cursor: pointer;
+    padding: 5px 20px 5px 20px;
+    display: flex;
+}
+.box-8:hover{
+    background: whitesmoke;
+    border-radius: 20px;
+}
+.box-8 img{
+    width: 28px;
+    height: 30px;
+}
+.box-8 a{
+    text-decoration: none;
+    margin-top: 7px;
+    margin-left: 20px;
+   color: black;
+}
+.box-9{
+    cursor: pointer;
+    padding: 5px 20px 5px 20px;
+    display: flex;
+}
+.box-9:hover{
+    background: whitesmoke;
+    border-radius: 20px;
+}
+.box-9 img{
+    width: 28px;
+    height: 30px;
+}
+.box-9 a{
+    text-decoration: none;
+    margin-top: 7px;
+    margin-left: 20px;
+    color: black;
+}
+#card{
+    width: 320px;
+background: white;
+    height: 310px;
+    margin-left: 330px;
+    border-radius: 12px;
+    margin-top: -455px;
+    box-sizing: border-box;
+    border: 1px solid black;
+ 
+}
+.card-1 img{
+    height: 100px;
+    width: 100%;
+border-radius: 12px 12px 0px 0px;
+}
+.card-2 img{
+    height: 73x;
+    width: 73px;
+    border-radius: 50%;
+    margin-left: 210px;
+    margin-top: -40px;
+}
+.rel-1{
+    width: 40px;
+    margin-left: 220px;
+    margin-top: 15px;
+}
+.rel-2{
+    width: 40px;
+    height: 40px;
+}
