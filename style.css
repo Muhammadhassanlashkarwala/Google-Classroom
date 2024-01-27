@@ -50,7 +50,7 @@ margin: 0px 10px ;
 }
 .special-box{
     border: 1px solid grey;
-    height: 484px;
+    height: 483px;
     width: 300px;
    border-top: none;
    padding-top: 10px;
@@ -60,7 +60,7 @@ margin: 0px 10px ;
     padding: 5px 20px 5px 20px;
     display: flex;
     cursor: pointer;
-    background: rgb(156, 188, 223);
+    background: rgb(175, 209, 246);
     border-radius: 20px;
 }
 .box-3 img{
@@ -215,12 +215,101 @@ border-radius: 12px 12px 0px 0px;
     margin-left: 210px;
     margin-top: -40px;
 }
+.card-2 .para-1{
+    color: white;
+    margin-top: -120px;
+    font-size: x-large;
+    margin-left: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.card-2 .para-2{
+    color: white;
+    margin-left: 20px;
+cursor: pointer;
+font-size: 14px;
+text-decoration:underline ;
+}
 .rel-1{
     width: 40px;
     margin-left: 220px;
     margin-top: 15px;
+    cursor: pointer;
+}
+.rel-1:hover{
+    transition: 0.2s ease-in-out;
+    transform: scale(1.02);
+    border-radius: 50%;
 }
 .rel-2{
     width: 40px;
     height: 40px;
+    cursor: pointer;
+}
+.rel-2:hover{
+    transition: 0.2s ease-in-out;
+    transform: scale(1.02);
+    background: grey;
+    border-radius: 50%;
+}
+
+#cardlolo{
+    width: 320px;
+background: white;
+    height: 310px;
+    margin-left: 750px;
+    border-radius: 12px;
+    margin-top: -310px;
+    box-sizing: border-box;
+    border: 1px solid black;
+ 
+}
+.card-1 img{
+    height: 100px;
+    width: 100%;
+border-radius: 12px 12px 0px 0px;
+}
+.card-2 img{
+    height: 70px;
+    width:80px;
+    border-radius: 50%;
+    margin-left: 210px;
+    margin-top: -40px;
+}
+.card-2 .para-1{
+    color: white;
+    margin-top: -120px;
+    font-size: x-large;
+    margin-left: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.card-2 .para-2{
+    color: white;
+    margin-left: 20px;
+cursor: pointer;
+font-size: 14px;
+text-decoration:underline ;
+}
+.rel-1{
+    width: 40px;
+    margin-left: 220px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.rel-1:hover{
+    transition: 0.2s ease-in-out;
+    transform: scale(1.02);
+    border-radius: 50%;
+}
+.rel-2{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.rel-2:hover{
+    transition: 0.2s ease-in-out;
+    transform: scale(1.02);
+    background: grey;
+    border-radius: 50%;
 }
